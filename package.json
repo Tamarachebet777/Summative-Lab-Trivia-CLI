@@ -1,0 +1,26 @@
+{
+  "name": "summative-lab-trivia-cli",
+  "version": "1.0.0",
+  "description": "A CLI-based trivia game",
+  "homepage": "https://github.com/Tamarachebet777/Summative-Lab-Trivia-CLI#readme",
+  "bugs": {
+    "url": "https://github.com/Tamarachebet777/Summative-Lab-Trivia-CLI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamarachebet777/Summative-Lab-Trivia-CLI.git"
+  },
+  
+  "type": "commonjs",
+  "main": "trivia.js",
+  "scripts": {
+     "start": "node trivia.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["trivia", "quiz", "cli", "game"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
